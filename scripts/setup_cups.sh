@@ -7,7 +7,7 @@ set -e
 
 echo "🖨️  Installing CUPS and Printer Drivers..."
 sudo apt-get update
-sudo apt-get install -y cups cups-bsd printer-driver-escpos
+sudo apt-get install -y cups cups-bsd
 
 # Configure CUPS to allow remote administration
 echo "⚙️  Configuring CUPS for Remote Access..."
